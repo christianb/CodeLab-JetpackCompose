@@ -1,4 +1,4 @@
-package de.bunk.learnjetpackcompose.ui.theme
+package learn.jetpackcompose.basics.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
