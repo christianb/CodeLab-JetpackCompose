@@ -1,5 +1,5 @@
 # Jetpack Compose State
-* [CodeLab Layouts in Jetpack Compose](https://developer.android.com/codelabs/jetpack-compose-state)
+* [CodeLab State in Jetpack Compose](https://developer.android.com/codelabs/jetpack-compose-state)
 
 You can get the code for the solution of this CodeLab from GitHub:
 ```

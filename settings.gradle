@@ -10,5 +10,6 @@ rootProject.name = "LearnJetpackCompose"
 include ':codelab-compose-basics'
 include ':codelab-compose-layouts'
 include ':codelab-compose-state'
+include ':codelab-compose-state-advanced'
 include ':codelab-compose-testing'
 include ':codelab-compose-theming'
