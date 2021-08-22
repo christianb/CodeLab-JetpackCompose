@@ -14,24 +14,15 @@
  * limitations under the License.
  */
 
-package learn.jetpackcompose.theming.ui.finish
+package learn.jetpackcompose.theming.ui.theme
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.material.Surface
+import androidx.compose.foundation.shape.CutCornerShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Shapes
+import androidx.compose.ui.unit.dp
 
-/**
- * This activity demonstrates the final state of the codelab. You can run it from the included
- * run configuration.
- */
-class FinishActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            Surface {
-                Home()
-            }
-        }
-    }
-}
+val JetnewsShapes = Shapes(
+    small = CutCornerShape(topStart = 8.dp),
+    medium = CutCornerShape(topStart = 24.dp),
+    large = RoundedCornerShape(8.dp)
+)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package learn.jetpackcompose.theming.ui.finish.theme
+package learn.jetpackcompose.theming.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
